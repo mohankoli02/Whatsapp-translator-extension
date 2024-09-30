@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="popup">
+      <h1>WhatsApp Translator</h1>
+
+      <label for="sourceLanguage">Translate From:</label>
+      <select id="sourceLanguage">
+        <option value="auto">Detect Automatically</option>
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+      </select>
+
+      <label for="targetLanguage">Translate To:</label>
+      <select id="targetLanguage">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+      </select>
+
+      <button id="save">Save</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
